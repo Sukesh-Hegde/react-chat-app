@@ -1,4 +1,3 @@
-
 .chat {
   flex: 2;
   border-left: 1px solid #dddddd35;
@@ -55,6 +54,14 @@
     }
   }
 
+  /* center design */
+
+  .center {
+    padding: 20px;
+    flex: 1;
+  }
+
+  /* Bottom design */
   .bottom {
     padding: 20px;
     display: flex;
@@ -103,6 +110,16 @@
         cursor: not-allowed;
       }
     }
+
+    .emoji {
+      position: relative;
+
+      .picker {
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+      }
+    }
   }
 }
 
@@ -114,15 +131,7 @@
 
 
 
-    .emoji {
-      position: relative;
 
-      .picker {
-        position: absolute;
-        bottom: 50px;
-        left: 0;
-      }
-    }
 
     .sendButton {
       background-color: #5183fe;
